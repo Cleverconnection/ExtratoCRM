@@ -1,0 +1,59 @@
+name: Deploy to gh-pages
+
+on:
+  push:
+    branches:
+      - master
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        env:
+          VITE_PUBLIC_BASE: /ExtratoCRM/
+          VITE_AZURE_CLIENT_ID: ${{ vars.VITE_AZURE_CLIENT_ID }}
+          VITE_AZURE_TENANT_ID: ${{ vars.VITE_AZURE_TENANT_ID }}
+          VITE_AZURE_REDIRECT_URI: ${{ vars.VITE_AZURE_REDIRECT_URI }}
+          VITE_AZURE_SCOPES: ${{ vars.VITE_AZURE_SCOPES }}
+          VITE_STATEMENT_DB_FILE: data/statement-db.json
+        run: |
+          if [ -z "$VITE_AZURE_TENANT_ID" ]; then
+            export VITE_AZURE_TENANT_ID=common
+          fi
+
+          if [ -z "$VITE_AZURE_REDIRECT_URI" ]; then
+            export VITE_AZURE_REDIRECT_URI="https://${{ github.repository_owner }}.github.io/ExtratoCRM/"
+          fi
+
+          if [ -z "$VITE_AZURE_SCOPES" ]; then
+            export VITE_AZURE_SCOPES=User.Read
+          fi
+
+          npm run build
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          force_orphan: true
