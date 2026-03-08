@@ -2,7 +2,7 @@
   "version": 1,
   "sourceLabel": "Banco principal (Git)",
   "overrides": {},
-  "updatedAt": "2026-02-25T23:52:44.699Z",
+  "updatedAt": "2026-03-05T22:15:17.234Z",
   "transactions": [
     {
       "date": "2026-02-21T03:00:00.000Z",
@@ -48,8 +48,8 @@
       "value": -150,
       "balance": 35219.18,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Transporte",
+      "category": "Transporte",
       "id": "2026-02-20|compra no debito|autopostoleaoda praia grande bra|-150.00|35219.18"
     },
     {
@@ -228,8 +228,8 @@
       "value": -150,
       "balance": 34012.05,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Transporte",
+      "category": "Transporte",
       "id": "2026-02-13|compra no debito|postosetee praia grande bra|-150.00|34012.05"
     },
     {
@@ -336,8 +336,8 @@
       "value": -50.95,
       "balance": 29099.4,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Alimentacao",
+      "category": "Alimentacao",
       "id": "2026-02-11|compra no debito|mp padariasp praia grande bra|-50.95|29099.40"
     },
     {
@@ -360,8 +360,8 @@
       "value": -180,
       "balance": 29487.41,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Transporte",
+      "category": "Transporte",
       "id": "2026-02-10|compra no debito|autopostoleaoda praia grande bra|-180.00|29487.41"
     },
     {
@@ -396,8 +396,8 @@
       "value": -180,
       "balance": 29752.22,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Transporte",
+      "category": "Transporte",
       "id": "2026-02-06|compra no debito|autopostoleaoda praia grande bra|-180.00|29752.22"
     },
     {
@@ -516,8 +516,8 @@
       "value": -120,
       "balance": 31340.2,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Transporte",
+      "category": "Transporte",
       "id": "2026-02-02|compra no debito|postosetee praia grande bra|-120.00|31340.20"
     },
     {
@@ -600,8 +600,8 @@
       "value": -124.68,
       "balance": 41646.81,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Transporte",
+      "category": "Transporte",
       "id": "2026-01-29|compra no debito|postosetee praia grande bra|-124.68|41646.81"
     },
     {
@@ -696,8 +696,8 @@
       "value": -120,
       "balance": 45283.96,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Transporte",
+      "category": "Transporte",
       "id": "2026-01-26|compra no debito|postosetee praia grande bra|-120.00|45283.96"
     },
     {
@@ -720,8 +720,8 @@
       "value": -121.74,
       "balance": 42173.11,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Transporte",
+      "category": "Transporte",
       "id": "2026-01-23|compra no debito|postosetee praia grande bra|-121.74|42173.11"
     },
     {
@@ -828,8 +828,8 @@
       "value": -60,
       "balance": 49660.69,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Transporte",
+      "category": "Transporte",
       "id": "2026-01-15|compra no debito|autopostoleaoda praia grande bra|-60.00|49660.69"
     },
     {
@@ -936,8 +936,8 @@
       "value": -120.11,
       "balance": 4474.55,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Transporte",
+      "category": "Transporte",
       "id": "2026-01-12|compra no debito|postosetee praia grande bra|-120.11|4474.55"
     },
     {
@@ -984,8 +984,8 @@
       "value": -60,
       "balance": 3126.56,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Transporte",
+      "category": "Transporte",
       "id": "2026-01-09|compra no debito|postosetee praia grande bra|-60.00|3126.56"
     },
     {
@@ -1020,8 +1020,8 @@
       "value": -60,
       "balance": 31138.9,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Transporte",
+      "category": "Transporte",
       "id": "2026-01-06|compra no debito|postosetee praia grande bra|-60.00|31138.90"
     },
     {
@@ -1308,8 +1308,8 @@
       "value": -162.12,
       "balance": 50290.68,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Transporte",
+      "category": "Transporte",
       "id": "2025-12-18|compra no debito|postosetee praia grande bra|-162.12|50290.68"
     },
     {
@@ -1416,8 +1416,8 @@
       "value": -160,
       "balance": 90588.17,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Transporte",
+      "category": "Transporte",
       "id": "2025-12-13|compra no debito|postosetee praia grande bra|-160.00|90588.17"
     },
     {
@@ -1488,8 +1488,8 @@
       "value": -24.97,
       "balance": 91810.07,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Alimentacao",
+      "category": "Alimentacao",
       "id": "2025-12-09|compra no debito|mp padariasp praia grande bra|-24.97|91810.07"
     },
     {
@@ -1536,8 +1536,8 @@
       "value": -160,
       "balance": 69658.12,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Transporte",
+      "category": "Transporte",
       "id": "2025-12-08|compra no debito|postosetee praia grande bra|-160.00|69658.12"
     },
     {
@@ -1608,8 +1608,8 @@
       "value": -160,
       "balance": 69864.12,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Transporte",
+      "category": "Transporte",
       "id": "2025-12-04|compra no debito|postosetee praia grande bra|-160.00|69864.12"
     },
     {
@@ -1764,8 +1764,8 @@
       "value": -160,
       "balance": 51725.7,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Transporte",
+      "category": "Transporte",
       "id": "2025-11-27|compra no debito|postosetee praia grande bra|-160.00|51725.70"
     },
     {
@@ -1956,8 +1956,8 @@
       "value": -80,
       "balance": 38632.58,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Transporte",
+      "category": "Transporte",
       "id": "2025-11-24|compra no debito|autopostoleaoda praia grande bra|-80.00|38632.58"
     },
     {
@@ -2016,8 +2016,8 @@
       "value": -50,
       "balance": 47135.5,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Transporte",
+      "category": "Transporte",
       "id": "2025-11-19|compra no debito|autopostoviaduto cubatao bra|-50.00|47135.50"
     },
     {
@@ -2196,8 +2196,8 @@
       "value": -160,
       "balance": 46159.03,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Transporte",
+      "category": "Transporte",
       "id": "2025-11-12|compra no debito|postosetee praia grande bra|-160.00|46159.03"
     },
     {
@@ -2244,8 +2244,8 @@
       "value": -50,
       "balance": 40017.55,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Transporte",
+      "category": "Transporte",
       "id": "2025-11-11|compra no debito|autopostoviaduto cubatao bra|-50.00|40017.55"
     },
     {
@@ -2772,8 +2772,8 @@
       "value": -160,
       "balance": 5119.54,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Transporte",
+      "category": "Transporte",
       "id": "2025-10-21|compra no debito|postosetee praia grande bra|-160.00|5119.54"
     },
     {
@@ -4260,8 +4260,8 @@
       "value": -3.89,
       "balance": 792.18,
       "type": "saida",
-      "baseCategory": "Generica",
-      "category": "Generica",
+      "baseCategory": "Clinica Exame",
+      "category": "Clinica Exame",
       "id": "2025-09-03|compra no debito|drogasil2059 osasco bra|-3.89|792.18"
     },
     {
